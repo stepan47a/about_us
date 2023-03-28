@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About Us</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+            <a href="index.html" class="logo">Stepan</a>
+            <nav id = "nav" class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item" id = "gray"><a href="#!" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#!" class="nav-link">Works</a></li>
+                    <li class="nav-item"><a href="#!" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#!" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
+                </ul>
+                <button id = "nav-btn" class="nav-button">
+                    <img id = "nav-btn-img" src="./img/items/nav-open.svg" alt="">
+                </button>
+            </nav>
+            </div>
+            <div class="header-row">
+        <div class="header__content" data-aos="fade-up">
+            <div class="header__title">Stepan Zalenskiy<br> <span>Designer & Developer</span></div>
+            <div class="header__text">I am a website builder. I have been learning HTML & CSS and JS for 1.5 years now.</div>
+        </div>
+        <div class="header-img" data-aos="fade-left">
+            <picture>
+                <source media="(max-width:700px)" srcset = "./img/header/hero-mobile.png">   
+                <img src="./img/header/hero.png" alt="">
+            </picture>  
+        </div>
+        </div>
+    </div>
+    </header>
+    
+    <section class="services">
+        <div class="container">
+            <div class="services-row">
+                <div class="service-card">
+                    <img class = "service-card-img" data-aos="fade-down" src="./img/services/01.svg" alt="">
+                    <h1 class="service-title" data-aos="fade-down">UI/UX DESIGN</h1>
+                    <p  data-aos="fade-down">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+                <div class="service-card">
+                    <img class = "service-card-img" data-aos="fade-down" src="./img/services/02.svg" alt="">
+                    <h1 class="service-title"  data-aos="fade-down">DEVELOPMENT</h1>
+                    <p  data-aos="fade-down">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+                <div class="service-card">
+                    <img class = "service-card-img" data-aos="fade-down" src="./img/services/03.svg" alt="">
+                    <h1 class="service-title" data-aos="fade-down">SOFTWARE TESTING</h1>
+                    <p  data-aos="fade-down">Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="portfolio">
+        <div class="container">
+        <h1 class="portfolio__title">Portfolio</h1>
+        <div class="project" data-aos="flip-up">
+            <img src="./img/portfolio/01.jpg" alt="" class = "project-img" >
+            <h3 class="project-title"> <a href="#!">Online fashion store - Homepage</a></h3>
+        </div>
+        <div class="project" data-aos="flip-up">
+            <img src="./img/portfolio/02.jpg" alt="" class = "project-img" >
+            <h3 class="project-title"> <a href="#!">Reebok Store - Concept</a></h3>
+        </div>
+        <div class="project" data-aos="flip-up">
+            <img src="./img/portfolio/03.jpg" alt="" class = "project-img" >
+            <h3 class="project-title"> <a href="#!">Braun Landing Page - Concept</a></h3>
+        </div>
+    </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <h1 class="contacts__title" data-aos="fade-down">Contacts</h1>
+            <div class="contacts__content" data-aos="fade-down">
+                <p>Want to know more or just chat?<br>You are welcome!</p>
+            </div>
+            <div class="contacts__button" data-aos="fade-down">
+                <a href="#!" class = "btn">Send message</a>
+            </div>
+                <div class="contacts-socials" data-aos="zoom-in">
+                    <a href="#!"><img src="./img/socials/LinkedIn.svg" alt=""></a>
+                    <a href="#!"><img src="./img/socials/Instargam.svg" alt=""></a>
+                    <a href="#!"><img src="./img/socials/Behance.svg" alt=""></a>
+                    <a href="#!"><img src="./img/socials/Dribble.svg" alt=""></a>
+                </div>
+                <div class="contacts-footer" data-aos="fade-down">
+                    <p>Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
+                </div>
+            
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src = "./js/main.js"></script>
+</body>
+</html>

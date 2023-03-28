@@ -1,0 +1,210 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Luckiest+Guy&family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+body{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    transition: background-color 0.5s ease-in, top 0.5s ease-in;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #323232;
+}
+
+.btn:active{
+    position: relative;
+    top: 1px;
+    background-color: #000000;
+}
+
+.header{
+    padding-top:46px;
+    background-color: #F1F1F1;
+}
+
+.header-nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   margin-bottom: 76px;
+}
+
+
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+
+.logo::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: 3px;
+  bottom: 7px;
+  background-color: #FDA300;
+  border-radius: 50%;
+}
+ 
+.nav-list {
+    display: flex;
+    column-gap:50px;
+    font-weight: 500;
+}
+
+.nav-button{
+    display: none;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link.active{
+    color: #606060;
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap:30px;
+}
+
+.header__content {
+    max-width: 500px;
+  
+}
+.header__title {
+    margin-top: 124px;
+    width: 482px;
+    font-size: 44px;
+    font-weight: 600;
+}
+.header__text {
+    line-height: 2;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.services {
+    padding: 90px 0;
+}
+.services-row {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+.service-card {
+    min-width: 315px;
+    flex: 1 1 0;
+}
+.service-card-img {
+    margin-bottom: 30px;
+}
+.service-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-card p{
+    line-height: 2;
+}
+
+/* PORTFOLIO */
+
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0;
+}
+
+.portfolio__title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.project-title{
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.project-title a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+    text-align: center;
+}
+
+/* CONTACTS */
+
+.contacts {
+    text-align: center;
+    padding: 90px 0;
+}
+
+.contacts__content {
+    margin: 0 auto 40px;
+    max-width: 480px;
+    font-size: 18px;
+}
+.contacts__title {
+
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contacts__button {
+    margin-bottom: 80px;
+}
+
+.contacts-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts-footer{
+    color: #828282;
+}
